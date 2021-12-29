@@ -7,6 +7,7 @@ const App = () => {
     (
         <div className='hooks-app'>
             <NavbarCss />
+            <ItemCount min={1} max={10} />
         </div>
     )
 }
